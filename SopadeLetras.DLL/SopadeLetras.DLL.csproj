@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SopadeLetras.DAL\SopadeLetras.DAL.csproj" />
+    <ProjectReference Include="..\SopadeLetras.DTO\SopadeLetras.DTO.csproj" />
+    <ProjectReference Include="..\SopadeLetras.MODELS\SopadeLetras.MODELS.csproj" />
+  </ItemGroup>
+
+</Project>

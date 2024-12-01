@@ -1,0 +1,6 @@
+@SopadeLetras.API_HostAddress = http://localhost:5265
+
+GET {{SopadeLetras.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
